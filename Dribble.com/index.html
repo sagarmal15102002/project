@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>login page</title>
+  </head>
+  <body>
+    <section>
+      <video class="vid" autoplay loop muted>
+        <source src="dvideo.mp4" type="video/mp4" class="video" />
+      </video>
+      <main>
+        <div class="first-div">
+          <h2 class="heading">Sign in to Dribbble</h2>
+          <button class="button" onclick="switchToGoogleAccount()">
+            <img src="google_image.jpg" alt="google-image" class="image" />
+            <a href="#" class="button-link">sing in with Google</a>
+          </button>
+          <hr />
+          <form>
+            <label for="username" class="name"> Username or Email</label><br />
+            <input type="text" name="username" id="username" />
+            <br />
+            <br />
+            <label for="password" class="label2"
+              >Password <a href="#" class="link2">Forgot?</a></label
+            ><br />
+            <input type="password" name="password" id="password" />
+            <button class="btn2">
+              sign in
+            </button>
+
+          </form>
+          <p style="font-weight:lighter; text-align: center;">Don't have an account <a href="#" style="color: black; font-synthesis-weight:1px ;">Sign up</a></p>
+          
+        </div>
+      </main>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
